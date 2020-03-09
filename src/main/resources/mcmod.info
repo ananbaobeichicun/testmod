@@ -1,0 +1,16 @@
+[
+{
+  "modid": "testmod",
+  "name": "Test Mod",
+  "description": "Example placeholder mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["syfima"],
+  "credits": "Copyright(c) 2020 syfima. All right reserved.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
