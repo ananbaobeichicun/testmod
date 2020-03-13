@@ -8,7 +8,6 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
-import test.mod.TestMod;
 
 public class ItemStackHolder extends Item
 {
@@ -17,7 +16,7 @@ public class ItemStackHolder extends Item
 		super();
 		this.setUnlocalizedName("stack_holder")
         .setCreativeTab(CreativeTabs.MATERIALS)
-        .setRegistryName("testmod:item_stack_holder");
+        .setRegistryName("testmod", "item_stack_holder");
 	}
 	
 	@Override
