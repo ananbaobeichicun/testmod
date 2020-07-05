@@ -1,1 +1,0 @@
-A personal mod based on [Minecraft Forge](https://files.minecraftforge.net)(just for pratice)
