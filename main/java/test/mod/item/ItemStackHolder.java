@@ -15,13 +15,15 @@ public class ItemStackHolder extends Item
 	public ItemStackHolder()
 	{
 		super();
-		this.setUnlocalizedName("stack_holder").setCreativeTab(CreativeTabs.MATERIALS).setRegistryName(Reference.MODID, "item_stack_holder");
+		this.setUnlocalizedName("stack_holder")
+				.setCreativeTab(CreativeTabs.MATERIALS)
+				.setRegistryName(Reference.MODID, "item_stack_holder");
 	}
 	
 	@Override
 	public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn)
 	{
 		//		playerIn.openGui(TestMod.instance, 5, worldIn, 0, 0, 0);
-		return new ActionResult<ItemStack>(EnumActionResult.SUCCESS, playerIn.getHeldItemMainhand());
+		return new ActionResult<>(EnumActionResult.SUCCESS, playerIn.getHeldItemMainhand());
 	}
 }

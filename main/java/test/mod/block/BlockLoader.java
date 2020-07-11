@@ -16,11 +16,12 @@ public class BlockLoader
 	public static Block pipe = new Block(Material.ROCK).setCreativeTab(CreativeTabs.MATERIALS)
 			.setUnlocalizedName("pipe")
 			.setRegistryName(Reference.MODID, "pipe");
+	public static Block grinder = new BlockGrinder();
 	
 	@SubscribeEvent
-	public static void registerBlocks(RegistryEvent.Register<Block> event)
+	public static void onRegisterBlocks(RegistryEvent.Register<Block> event)
 	{
 		event.getRegistry()
-				.registerAll(pipe);
+				.registerAll(pipe, grinder);
 	}
 }

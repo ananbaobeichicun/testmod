@@ -25,7 +25,7 @@ public class ItemLoader
 			.setRegistryName(Reference.MODID, "coil_copper");
 	
 	@SubscribeEvent
-	public static void registerItems(RegistryEvent.Register<Item> event)
+	public static void onRegisterItems(RegistryEvent.Register<Item> event)
 	{
 		event.getRegistry()
 				.registerAll(itemPipe);
