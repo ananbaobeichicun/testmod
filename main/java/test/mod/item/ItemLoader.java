@@ -16,6 +16,7 @@ public class ItemLoader
 	public static ItemStackHolder itemStackHolder = new ItemStackHolder();
 	public static Item itemPipe = new ItemBlock(BlockLoader.pipe).setUnlocalizedName("pipe")
 			.setRegistryName(Reference.MODID, "pipe");
+	public static Item itemGrinder = new ItemBlock(BlockLoader.grinder).setUnlocalizedName("grinder").setRegistryName(Reference.MODID, "grinder");
 	
 	public static Item ingot_copper = new Item().setUnlocalizedName("ingot_copper")
 			.setRegistryName(Reference.MODID, "ingot_copper");

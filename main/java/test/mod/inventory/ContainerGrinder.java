@@ -11,7 +11,6 @@ public class ContainerGrinder extends Container
 	
 	public ContainerGrinder(EntityPlayer player, TileEntity tileEntity)
 	{
-		super();
 		this.tileEntity = (GrinderTileEntity) tileEntity;
 	}
 	
